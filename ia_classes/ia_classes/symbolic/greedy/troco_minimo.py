@@ -1,9 +1,6 @@
-'''
-              ALGORITMO GULOSO - TROCO MÍNIMO (CURSO PYTHON 300) DIRIGIDO POR MARCOS CASTRO
-'''
 
-# notas = [100,50,25,10,5,1]
-notas = [200, 50, 25, 10, 5, 2]
+notas = [100,50,25,10,5,1]
+# notas = [200, 50, 25, 10, 5, 2]
 
 def troco_min(valor, total=0):
 	for i in range(len(notas)):
@@ -14,4 +11,4 @@ def troco_min(valor, total=0):
 	print('Total de notas:',total)
 
 
-troco_min(33)
+troco_min(333)
